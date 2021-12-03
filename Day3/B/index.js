@@ -2,12 +2,9 @@ const fs = require('fs')
 
 let input = fs.readFileSync('./input.txt', ('utf-8')).split('\r\n')
 
-input.map(line => {
-    line = line.split('')
-})
+input.map(line => { line = line.split('')})
 
-let leftData = input
-let rightData = input
+let leftData = input, rightData = input
 
 for (let x = 0; x < input[0].length; x++) {
     let arr = []
