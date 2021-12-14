@@ -14,8 +14,6 @@ input.map(line => {
     matches[splitted[0]] = splitted[1]
 })
 
-let data = {}
-
 for (let i = 0; i < 10; i++) {
     let result = []
 
